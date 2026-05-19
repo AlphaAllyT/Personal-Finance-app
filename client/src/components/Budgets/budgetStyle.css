@@ -1,0 +1,28 @@
+.moneyFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.budgetContainer {
+    width: 100%;
+    height: auto;       
+    margin-top: 20px;
+    overflow-x: hidden; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 0 20px 20px 20px;  
+    box-sizing: border-box; 
+}
+
+.budgetFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.align {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200%;
+}
