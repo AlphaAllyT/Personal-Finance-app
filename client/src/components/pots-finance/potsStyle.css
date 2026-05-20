@@ -1,0 +1,29 @@
+.potBoxFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.potContainer {   
+    width: 100%;
+    height: auto;   
+    margin-top: 20px;   
+    overflow-x: hidden; 
+    background-color: hsl(0, 0%, 98%); 
+    border-radius: 15px;
+    padding: 0 20px 20px 20px;  
+    box-sizing: border-box; 
+}
+
+.potFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.gridpotContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    direction: ltr;
+    gap: 30px;
+    width: 45%;
+}

@@ -1,0 +1,21 @@
+@media (max-width: 950px) {
+    .gridContainer {
+        grid-template-columns: 1fr;        
+    }
+}
+
+@media (max-width: 700px) {
+    .totalBal {
+        font-size: 1.5rem;      
+    }
+}
+
+@media (max-width: 600px) {
+    .currentBalance {
+        flex-direction: column;      
+    }
+
+    .totalBal {
+        font-size: 2rem;      
+    }
+}

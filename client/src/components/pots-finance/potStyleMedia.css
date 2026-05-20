@@ -1,0 +1,33 @@
+@media (max-width: 600px ) {
+    .potFlex {
+        flex-direction: column;
+    }
+
+    .tempBoxOne {        
+        width: 180px;  
+        height: 100px;          
+        padding: 0;   
+        margin-bottom: 20px; 
+    } 
+
+    .tempTitleOne {
+        margin: 0;
+        padding-top: 25px;
+    }
+
+    .tempBoxOne img {
+        padding: 35px 0 0 25px;
+        margin: 0;
+        width: 55%;
+    }
+
+    .gridpotContainer {
+        direction: ltr;
+        width: 100%;
+    }
+
+    .tempNumberOne {
+        font-size: 2rem;        
+    }
+
+}

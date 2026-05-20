@@ -1,0 +1,14 @@
+@media (max-width: 600px ) { 
+    .transactionFlex h1 {
+        font-size: 1.2rem;    
+    }
+
+    .circle-img {
+        width: 18%;
+    }
+
+    .descriptionBoxTitle {
+        font-size: 0.8rem;
+    }
+
+}

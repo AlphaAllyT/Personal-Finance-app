@@ -1,0 +1,35 @@
+#root {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;  
+}
+
+body {
+  margin: 20px;
+  background-color: hsl(60, 33%, 96%);  
+  background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+}
+
+.currentBalance {
+    display: flex;
+    gap: 20px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;    
+    gap: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.navbar {
+  display: flex;  
+}
+
+.menu {
+  margin: 35px 0 0 20px;  
+}
