@@ -10,7 +10,7 @@ function Description() {
             <div className="descriptionBox">
                 <div className="id">
                     <img src={avator} alt="" className="circle-img"/>
-                    <p className="descriptionBoxTitle">Alliaster Wentzel</p>
+                    <p className="descriptionBoxTitle">John Doe</p>
                 </div>
                 <div className="descriptionBills">
                     <p style={{fontWeight:"bold"}}>$850</p>
